@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-<openerp>
+<odoo>
     <data>
 		
         <record model="ir.ui.view" id="view_sisfact_clientes_form">
-            <field name="name">sisfact_clientes.form</field>
+            <field name="name">Clientes.form</field>
             <field name="model">sisfact.clientes</field>
             <field name="type">form</field>
             <field name="arch" type="xml">
@@ -21,7 +21,7 @@
 		</record>
 		
 		<record model="ir.ui.view" id="view_sisfact_clientes_tree">
-            <field name="name">sisfact_clientes.tree</field>
+            <field name="name">Clientes.tree</field>
             <field name="model">sisfact.clientes</field>
             <field name="type">tree</field>
             <field name="arch" type="xml">
@@ -37,7 +37,7 @@
 		</record>
 		
 		<record model="ir.actions.act_window" id = "action_sisfact_clientes">
-			<field name="name">sisfact_clientes</field>
+			<field name="name">Clientes</field>
             <field name="res_model">sisfact.clientes</field>
             <field name="view_type">form</field>
             <field name="view_mode">tree,form</field>
@@ -47,4 +47,4 @@
         <menuitem name = "Inicio" id = "menu_Inicio" parent = "menu_SISFACT" sequence = "10"/>
         <menuitem name = "Clientes" id = "menu_clientes" action = "action_sisfact_clientes" parent = "menu_Inicio" sequence = "10"/>
 	</data>
-</openerp>
+</odoo>

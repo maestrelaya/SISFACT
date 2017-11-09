@@ -2,7 +2,7 @@
 {
 	'name': 'SISFACT',
     'version': '1.0',
-    'depends': ['base_setup', 'sale'],
+    'depends': ['base_setup'],
     'authors': 'Sandra Maestre y José Agelvis',
     'category': 'Creación de Facturas',
     'description': """
@@ -10,7 +10,8 @@
     """,
     'update_xml': [],
     "data" : [
-		"views/sisfact_clientes_view.xml"
+		"views/sisfact_clientes_view.xml",
+		"views/einvoice_view.xml"
         
         ],
     'installable': True,
