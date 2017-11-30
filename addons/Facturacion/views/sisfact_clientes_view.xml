@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <odoo>
     <data>
-		
         <record model="ir.ui.view" id="view_sisfact_clientes_form">
             <field name="name">Clientes.form</field>
             <field name="model">sisfact.clientes</field>

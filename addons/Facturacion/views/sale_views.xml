@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<odoo> 
+<!-- Comentario en la Views --> 
+     <record id="view_ej_herencia_account_invoice_form" model="ir.ui.view"> 
+        <field name="name">ej.herencia_account_invoice.form</field> 
+        <field name="model">account.invoice</field> 
+        <field name="inherit_id" ref="account.invoice_form"/> 
+        <field name="arch" type="xml"> 
+        <field name="partner_id" position="before" >
+          <field name="RIF"/> 
+        </field> 
+        </field> 
+    </record> 
+</odoo>

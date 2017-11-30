@@ -10,8 +10,8 @@
     """,
     'update_xml': [],
     "data" : [
-		"views/sisfact_clientes_view.xml"
-        
+		"views/sisfact_clientes_view.xml" , 
+		"views/sale_views.xml"
         ],
     'installable': True,
     'auto_install': False,
