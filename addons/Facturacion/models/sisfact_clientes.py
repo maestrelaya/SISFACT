@@ -6,7 +6,8 @@ class sisfact_clientes(models.Model):
 	
 	_name = 'sisfact.clientes'
 	
-	RIF =fields.Integer(string='Cédula / RIF', required = True, help = 'Ingresa la cedula o rif del Cliente')
+	RIF = fields.Integer(string='RIF', required = True, help = 'Ingresa la cedula o rif del Cliente')
+	Registro = fields.Integer(string='Registro', required=True) 
 	cliente=fields.Char(string ='Cliente', required = True, help = 'Ingresa el nombre del Cliente')
 	direccion=fields.Text(string='Dirección',required = True, help = 'Ingresa la Direccion del Cliente')
 	telefono=fields.Char(string='Teléfonos', required = True, help = 'Ingresa el telefono del Cliente')

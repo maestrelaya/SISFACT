@@ -8,7 +8,8 @@
             <field name="arch" type="xml">
 					<form String='Cliente'>
 						<group>
-							<field name='CI_RIF'/>
+							<field name='RIF'/>
+							<field name='Registro'/>
 							<field name='cliente'/>
 							<field name='direccion'/>
 							<field name='telefono'/>
@@ -25,7 +26,8 @@
             <field name="type">tree</field>
             <field name="arch" type="xml">
 					<tree String='Cliente'>	
-							<field name='CI_RIF'/>
+							<field name='RIF'/>
+							<field name='Registro'/>
 							<field name='cliente'/>
 							<field name='direccion'/>
 							<field name='telefono'/>
